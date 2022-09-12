@@ -1,0 +1,12 @@
+* {
+    background-color: lightgrey;
+}
+
+.logo-w {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-list {
+    display: inline-block;
+}
