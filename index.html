@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>William's Portfolio</title>
 </head>
 <body>
-    <header class="header-container">
-        <img class="logo-w" src="assets/IMG/logo.jpg" alt="Logo">
+    <!--Header section with image, logo, and nested nav-->
+    <header class="hero">
         <nav>
-            <ul class="nav-list">
+            <img class="logo-w" src="assets/IMG/new-logo.png" alt="Logo">
+            <ul>
+                <li><a href="/Home.html">Home</a></li>
                 <li><a href="/About.html">About</a></li>
                 <li><a href="/Work.html">Work</a></li>
                 <li><a href="/Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <section class="banner-container">
-            <img src="assets/IMG/toronto-banner.jpg" alt="Animated drawing of Toronto skyline">
-        </section>
     </header>
-    <main class="main-container">
-        <article class="about-article">
-            <h2>William Ramos Rosario</h2>
-            <img src="assets/IMG/Will.jpeg" alt="Portrait of William">
+
+    <main>
+        <section class="intro">
+            <div class="intro-text">
+            <h4>Hello, I am</h4>
+            <h1>William <span>Ramos</span> Rosario</h1>
+            <h5>and I am a Full-stack <span></span>Developer</span></h5>
+            </div>
+                <img src="assets/IMG/Will.jpeg" id="will-img" alt="Portrait of William">
+        </section>
             <div id="about-me-div">
             <h4>About Me</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero recusandae dolore omnis aliquid harum voluptates, saepe cumque! Eius obcaecati, dignissimos, iusto eos excepturi nihil dolore, similique facilis ea sint quam.</p>
             </div>
-        </article>
         <section>
             <ul class="social-list">
                 <li>Github</li>
