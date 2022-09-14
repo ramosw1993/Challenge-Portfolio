@@ -7,17 +7,9 @@
 
 /* Header section with nested nav*/
 
-@media (min-width: 400px) and (max-width: 1500px) {
-  body {
-    
-  }
-}
-
 header {
   height: 100%;
   min-height: 50vh;
-  max-width: 100%;
-  width: 100%;
   background-image: url(../assets/IMG/toronto-banner_35.jpg);
   background-color: #cccccc;
   background-size: cover;
@@ -39,6 +31,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
+  min-width: 440px;
 }
 
 nav ul li {
@@ -160,6 +153,10 @@ main {
   font-size: 20px;
 }
 
+.img-1 {
+  justify-content: center;
+}
+
 .img-1:hover {
   transform: scale(1.2);
 }
@@ -177,6 +174,7 @@ main {
 }
 
 .contact-container ul {
+  padding-top: 30px;
   font-weight: bold;
   list-style-type: none;
   display: flex;
