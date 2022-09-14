@@ -7,9 +7,16 @@
 
 /* Header section with nested nav*/
 
+@media (min-width: 400px) and (max-width: 1500px) {
+  body {
+    
+  }
+}
+
 header {
   height: 100%;
   min-height: 50vh;
+  max-width: 100%;
   width: 100%;
   background-image: url(../assets/IMG/toronto-banner_35.jpg);
   background-color: #cccccc;
@@ -56,6 +63,9 @@ nav ul li a:hover {
 }
 
 /* main */
+main {
+  max-width: fit-content;
+}
 .two-containers {
   display: flex;
   justify-content: space-between;
@@ -132,6 +142,7 @@ nav ul li a:hover {
   background-size: cover;
   padding-top: 30px;
   padding-bottom: 30px;
+  max-width: fit-content;
 }
 
 .portfolio-container h3 {
@@ -139,6 +150,7 @@ nav ul li a:hover {
 }
 
 .containers-3 ul li {
+  max-width: fit-content;
   list-style-type: none;
   display: inline-block;
   align-items: center;
@@ -172,11 +184,6 @@ nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
 }
-
-@media screen and (min-width: 400px) {
-  body {
-    flex-direction: column;
-  }
 
 footer {
   padding-top: 30px;
