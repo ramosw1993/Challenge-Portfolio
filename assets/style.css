@@ -146,7 +146,6 @@ nav ul li a:hover {
   flex-wrap: nowrap;
   padding: 10px 20px;
   font-size: 20px;
-  padding-top: 30px;
 }
 
 .img-1:hover {
@@ -173,6 +172,11 @@ nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 400px) {
+  body {
+    flex-direction: column;
+  }
 
 footer {
   padding-top: 30px;
