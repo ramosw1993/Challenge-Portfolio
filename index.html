@@ -1,76 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>William's Portfolio</title>
 </head>
+
 <body>
     <!--Header section with image, logo, and nested nav-->
-    <section class="header-container">
     <header>
-        <div class="header-div">
         <nav>
-            <img class="logo-w" src="assets/IMG/new-logo.png" alt="Logo">
+            <img id="logo-w" src="assets/IMG/new-logo.png" alt="Logo">
             <ul>
-                <li><a href="/Home.html">Home</a></li>
-                <li><a href="/About.html">About</a></li>
-                <li><a href="/Work.html">Work</a></li>
-                <li><a href="/Contact.html">Contact</a></li>
+                <li><a href="#logo-w">Home</a></li>
+                <li><a href="#about-html">About</a></li>
+                <li><a href="#work-html">Work</a></li>
+                <li><a href="#contact-html">Contact</a></li>
             </ul>
         </nav>
-        </div>
     </header>
-    </section>
-
+    <!-- main section -->
     <main>
-        <section class="intro">
-            <Article class="text-img">
-                <div class="info-block">
-                <div class="intro-text">
-                    <h3>Hello, I am</h3>
-                    <h1>William <span class="ramos">Ramos</span> Rosario</h1>
-                    <h4>and I am a Full-stack <span></span>Developer</span></h4>
-                    </div>
+        <article class="two-containers">
+            <section class="container-1">
+                <h3>Hello, I am</h3>
+                <h1>William <span class="ramos">Ramos</span> Rosario</h1>
+                <h4>and I am a Full-stack <span></span>Developer</span></h4>
                 <div id="about-me-div">
-                    <h4>About Me</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus esse, soluta veritatis dicta dolores iusto hic asperiores, itaque tempore fugiat ducimus culpa minus fugit corrupti non repellat accusantium laboriosam nulla!</p>
-                    </div>
-                    </div>
-                    <img src="assets/IMG/Will.jpeg" id="will-img" alt="Portrait of William">
-            </Article>
-        </section>
-        <section class="portfolio-container">
-            <div class="card">
-                <h3>Work</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum, repellendus accusantium laboriosam qui doloribus voluptatibus, architecto, cumque ut omnis quibusdam. A recusandae laborum velit odit unde ullam corrupti facilis.</p>
-                <div class="containers-3">
-                    <ul>
-                        <li><a href="https://ramosw1993.github.io/Challenge-Horiseon/" target="https://ramosw1993.github.io/Challenge-Horiseon/"><img src="assets/IMG/Thumbnail1.png" height="400px" width="400px"><a></li>
-                        <li><a href="assets/IMG/coming-soon.jpg"  target="_blank"><img src="assets/IMG/coming-soon.jpg" height="400px" width="400px"><a></li>
-                        <li><a href="assets/IMG/coming-soon.jpg"  target="_blank"><img src="assets/IMG/coming-soon.jpg" height="400px" width="400px"><a></li>
-                    </ul>
+                    <h3 id="about-html">About Me</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus esse, soluta veritatis
+                        dicta dolores iusto hic asperiores, itaque tempore fugiat ducimus culpa minus fugit corrupti non
+                        repellat accusantium laboriosam nulla!</p>
                 </div>
+            </section>
+            <article class="container-2">
+                <img src="assets/IMG/Will.jpeg" class="will-img" alt="Portrait of William">
+            </article>
+        </article>
+        <article class="portfolio-container">
+            <h3 id="work-html">Work</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum, repellendus accusantium
+                laboriosam qui doloribus voluptatibus, architecto, cumque ut omnis quibusdam. A recusandae laborum velit
+                odit unde ullam corrupti facilis.</p>
+            <div class="containers-3">
+                <ul>
+                    <li><a href="https://ramosw1993.github.io/Challenge-Horiseon/"
+                            target="https://ramosw1993.github.io/Challenge-Horiseon/"><img
+                                src="assets/IMG/Thumbnail1.png" class="img-1" height="400px" width="400px"><a></li>
+                    <li><a href="assets/IMG/coming-soon.jpg" target="_blank"><img src="assets/IMG/coming-soon.jpg"
+                                height="400px" class="img-2" width="400px"><a></li>
+                    <li><a href="assets/IMG/coming-soon.jpg" target="_blank"><img src="assets/IMG/coming-soon.jpg"
+                                class="img-3" height="400px" width="400px"><a></li>
+                </ul>
             </div>
-        </section>
+        </article>
         <section class="contact-container">
-            <div>
-                
-            </div>
+            <h3 id="contact-html">Contact</h3>
+            <ul>
+                <li>Email: wramosrosario5@gmail.com</li>
+                <li>Twitter: @WillsCloud</li>
+                <li>Github: https://github.com/ramosw1993</li>
+                <li>LinkedIn: William Ramos Rosario</li>
+            </ul>
         </section>
     </main>
     <!--Footer section-->
-    <footer class="footer">
+    <footer>
         <h5>Made with ❤️️ by William Ramos Rosario</h5>
         <p>
             &copy; 2022 William's Portfolio.
         </p>
     </footer>
 </body>
+
 </html>
